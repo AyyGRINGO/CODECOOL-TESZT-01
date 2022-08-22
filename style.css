@@ -1,0 +1,133 @@
+body {
+    background-color: #ffeedf;
+    color: #145434;
+    font-family: space;
+    border: 0;
+    margin: 0;
+}
+
+
+
+#topBar {
+    height: 7vh;
+    border-bottom: 2px solid #145434;
+    font-size: 2.6rem;
+    font-weight: bold;
+    position: relative;
+    margin: 10px 5px 0px 5px; 
+}
+
+#hamburger {
+    position: absolute;
+    right: 1vw;
+    top: 1.0vh;
+}
+
+
+
+
+.fourDivs {
+    background-color: #145434;
+    color: #ffeedf;
+    width: 25vw;
+    height: 31vh;
+    position: relative;
+}
+
+#rowFirst {
+    display: flex;
+    justify-content: center;
+    padding-top: 7vh;
+    gap: 5vw;
+    
+    
+}
+
+#rowSecond {
+    display: flex;
+    justify-content: center;
+    padding-top: 7vh;
+    gap: 5vw;
+}
+
+.circles {
+    height: 35px;
+    width: 35px;
+    background-color: #ffeedf;
+    color: #145434;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    border: 2px solid #145434;
+    top:-11px;
+    left: -11px;
+}
+
+.spanNumber{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3rem;
+  font-weight: bold;
+
+}
+
+.BigText {
+    font-size: 2.2rem;
+    padding: 3.3vw;
+}
+
+.smallText {
+    border-top: 1px solid #ffeedf;
+    width: 20vw;
+    position: relative;
+    left: 3vw;
+    font-size: 1.2rem;
+    line-height: 28px;
+    padding-top: 1vh;
+
+    
+}
+
+.detailsDiv {
+    border: 2px solid #145434;
+    background-color: #ffeedf;
+    width: 13vw;
+    height: 6vh;
+    position: absolute;
+    right:-15px;
+    bottom: -15px;
+    color: #145434;
+    font-size: 1.1rem;
+
+}
+.detailsText {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+
+}
+
+#topBar {
+    position: relative;
+}
+
+
+.material-symbols-outlined {
+    position: absolute;
+    right: 0.7vw;
+    top: 1vh
+    
+}
+
+
+
+@font-face {
+    font-family: space;
+    src: url(./Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+
